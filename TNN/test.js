@@ -1,15 +1,15 @@
-//This is stored in 2 lines of code
-var myVariableReuben;
-myVariableReuben = 10;
+var myAge = 29;
 
-//This is stored in 1 line of code
-var myVar2 = "hello";
-myVar2;
+if (myAge > 30) {
+  document.write("you are over 30!");
 
-var customerAge = 32;
-customerAge;
+} else if (myAge > 20){
+  document.write("you are over 20!");
 
-var customerName = "Reuben";
-customerName;
+} else if (myAge >10){
+  document.write("you are over 10!");
 
-//JavaScript is a weakly typed language, meaning you don't have to specify the type like in other languages.
+} else{
+  document.write("you are not over 10!");
+
+}
