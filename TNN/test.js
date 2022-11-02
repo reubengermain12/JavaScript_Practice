@@ -1,10 +1,13 @@
 var youLikeMeat = true;
-// I've assigned the above variable the value of true
+var myNum = 8
 
-if (youLikeMeat) {
-// Then i'm checking the variable to see if it is true
+if (myNum == 10) {
+//The line above is saying if this is true, go ahead and excecute the line below.
+ 
+//If it is not true go to the else line and excecute that code instead.
+  document.write("myNum is equal to 10");
 
-  document.write("Here is the meaty menu...");
-  // If it's true then it will excecute this block of code
-  // If it's not true then if will not excecute
+} else{
+
+  document.write("myNum is not equal to 10");
 }
